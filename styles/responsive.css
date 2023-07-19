@@ -22,6 +22,36 @@
     .nav-items-container a{
         margin-top: 20px;
     }
+
+
+    /* banner responsive */
+
+    .banner-container {
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px auto;
+        padding: 0;
+    }
+
+    .banner-img{
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .banner-text{
+        width: 100%;
+        margin: 5px auto;
+        text-align: center;
+    }
+
+    .banner-img img {
+        width: 100%;
+        padding: 0;
+    }
+
+   
+
+    
 }
 
 
@@ -56,4 +86,29 @@
         .nav-items-container a{
             padding-top: 20px;
         }
+
+
+        /* banner responsive */
+
+        .banner-container {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .banner-text{
+            width: 80%;
+            margin: 5px auto;
+            text-align: center;
+        }
+
+        .banner-img{
+            width: 80%;
+            text-align: center;
+        }
+    
+       
 }
