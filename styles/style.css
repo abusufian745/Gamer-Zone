@@ -166,5 +166,73 @@ body {
     width: 270px;
 }
 
-
 /* game styles ends */
+
+
+/* footer section starts */
+
+footer{
+    height: 400px;
+    background: #0B0223;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer-logo-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.footer-logo-container h2{
+    color: white;
+    font-size: 40px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-menu{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer-icon-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 30px;
+}
+
+.fa-brands{
+    font-size: 40px;
+}
+
+.footer-policy span{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.footer-policy{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+}
+
+
+/* footer section ends */
