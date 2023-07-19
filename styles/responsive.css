@@ -1,25 +1,25 @@
 /* mobile responsive styles */
 
 @media screen and (max-width: 425px) {
-    
+
     /* nav responsive */
 
-    .nav-container{
+    .nav-container {
         flex-direction: column;
     }
 
-    .logo-container{
+    .logo-container {
         width: 60%;
         margin-top: 20px;
 
     }
 
-    .nav-items-container{
+    .nav-items-container {
         flex-direction: column;
         width: 100%;
     }
 
-    .nav-items-container a{
+    .nav-items-container a {
         margin-top: 20px;
     }
 
@@ -33,12 +33,12 @@
         padding: 0;
     }
 
-    .banner-img{
+    .banner-img {
         width: 100%;
         margin: 5px auto;
     }
 
-    .banner-text{
+    .banner-text {
         width: 100%;
         margin: 5px auto;
         text-align: center;
@@ -49,9 +49,15 @@
         padding: 0;
     }
 
-   
 
-    
+
+    /* game responsive */
+
+    .game-img-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin: 30px auto;
+    }
 }
 
 
@@ -65,50 +71,50 @@
 /* tablet responsive styles */
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
-    
-        /* nav responsive */
 
-        .nav-container{
-            flex-direction: column;
-        }
-    
-        .logo-container{
-            width: 50%;
-            margin: 20px auto;
-        }
-    
-        .nav-items-container{
-            flex-direction: column;
-            width: 50%;
-           
-        }
-    
-        .nav-items-container a{
-            padding-top: 20px;
-        }
+    /* nav responsive */
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+        width: 50%;
+
+    }
+
+    .nav-items-container a {
+        padding-top: 20px;
+    }
 
 
-        /* banner responsive */
+    /* banner responsive */
 
-        .banner-container {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 90%;
-            margin: 0 auto;
-            padding: 0;
-        }
+    .banner-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
 
-        .banner-text{
-            width: 80%;
-            margin: 5px auto;
-            text-align: center;
-        }
+    .banner-text {
+        width: 80%;
+        margin: 5px auto;
+        text-align: center;
+    }
 
-        .banner-img{
-            width: 80%;
-            text-align: center;
-        }
-    
-       
+    .banner-img {
+        width: 80%;
+        text-align: center;
+    }
+
+
 }

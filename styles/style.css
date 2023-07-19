@@ -111,7 +111,7 @@ body {
     margin: 10px 5px;
 }
 
-.banner-text .btn2{
+.banner-text .btn2 {
     background-color: #4EC5F7;
     padding: 20px 40px;
     border-radius: 40px;
@@ -128,5 +128,43 @@ body {
     width: 85%;
 }
 
-
 /* banner styles ends */
+
+
+/* game styles starts */
+
+.game-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0B0223;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.game-description {
+    text-align: center;
+    color: #534C64;
+    font-size: 18px;
+}
+
+.game-img-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1400px;
+    width: 80%;
+    margin: 30px auto;
+    gap: 10px;
+}
+
+
+.game-img img{
+    width: 250px;
+}
+
+.game-img p {
+    width: 270px;
+}
+
+
+/* game styles ends */
