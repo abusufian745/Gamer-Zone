@@ -211,6 +211,27 @@ body {
 /* paly styles ends */
 
 
+/* all games styles starts */
+
+
+.all-games-container{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.all-games-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* all games styles end */
+
+
 /* footer section starts */
 
 footer{
